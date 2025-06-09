@@ -69,62 +69,62 @@ export default function Home() {
               In questa sezione sono pubblicate le principali determine. Puoi consultare numero, data e oggetto di ciascun atto.
             </p>
           </div>
-          <div className="overflow-x-auto rounded-xl shadow-lg bg-gradient-to-br from-blue-50 to-white">
-            <table className="min-w-full divide-y divide-blue-200">
+          <div className="overflow-x-auto rounded-xl shadow-lg bg-gradient-to-br from-blue-50 to-white w-full">
+            <table className="min-w-full divide-y divide-blue-200 text-sm sm:text-base">
               <thead className="bg-blue-100">
                 <tr>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl">
+                  <th className="px-2 sm:px-4 md:px-6 py-3 text-left font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl whitespace-nowrap">
                     Unità organizzativa
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                  <th className="px-2 sm:px-4 md:px-6 py-3 text-left font-bold text-blue-900 uppercase tracking-wider whitespace-nowrap">
                     Reg.Gen.
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                  <th className="px-2 sm:px-4 md:px-6 py-3 text-left font-bold text-blue-900 uppercase tracking-wider whitespace-nowrap">
                     Data Reg. Gen.
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl">
+                  <th className="px-2 sm:px-4 md:px-6 py-3 text-left font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl">
                     Oggetto
                   </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-blue-100">
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
-                  <td className="px-6 py-4 text-blue-700">4</td>
-                  <td className="px-6 py-4 text-blue-700">29/03/2024</td>
-                  <td className="px-6 py-4 text-gray-700">
+                  <td className="px-2 sm:px-4 md:px-6 py-4 font-medium text-blue-800 whitespace-nowrap">DETERMINAZIONE</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">4</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">29/03/2024</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-gray-700">
                     AFFIDAMENTO DIRETTO PER ELABORAZIONE CEDOLINI AMMINISTRATORI E ADEMPIMENTI OBBLIGATORI CONNESSI - Consulente del Lavoro SILVIA GIANDILETTI P.I. 01565010293 - CIG: B0E1AD1F10
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
-                  <td className="px-6 py-4 text-blue-700">3</td>
-                  <td className="px-6 py-4 text-blue-700">29/03/2024</td>
-                  <td className="px-6 py-4 text-gray-700">
+                  <td className="px-2 sm:px-4 md:px-6 py-4 font-medium text-blue-800 whitespace-nowrap">DETERMINAZIONE</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">3</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">29/03/2024</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-gray-700">
                     PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.12.2024
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
-                  <td className="px-6 py-4 text-blue-700">2</td>
-                  <td className="px-6 py-4 text-blue-700">19/02/2024</td>
-                  <td className="px-6 py-4 text-gray-700">
+                  <td className="px-2 sm:px-4 md:px-6 py-4 font-medium text-blue-800 whitespace-nowrap">DETERMINAZIONE</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">2</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">19/02/2024</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-gray-700">
                     PRESA D'ATTO DIFFIDA VIOLAZIONI FORMALI IN CUMULO MATERIALE
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
-                  <td className="px-6 py-4 text-blue-700">1</td>
-                  <td className="px-6 py-4 text-blue-700">05/02/2024</td>
-                  <td className="px-6 py-4 text-gray-700">
+                  <td className="px-2 sm:px-4 md:px-6 py-4 font-medium text-blue-800 whitespace-nowrap">DETERMINAZIONE</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">1</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">05/02/2024</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-gray-700">
                     AFFIDAMENTO DIRETTO PER RINNOVO CONTRATTO ANNUALE DI MANUTENZIONE ED ASSISTENZA AI SISTEMI INFORMATICI - ditta ZUCCHETTI HEALTHCARE SRL di Rovereto (TN) P.I. 02649530280 - CIG B03FC04FF9
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
-                  <td className="px-6 py-4 text-blue-700">45</td>
-                  <td className="px-6 py-4 text-blue-700">21/12/2023</td>
-                  <td className="px-6 py-4 text-gray-700">
+                  <td className="px-2 sm:px-4 md:px-6 py-4 font-medium text-blue-800 whitespace-nowrap">DETERMINAZIONE</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">45</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-blue-700 whitespace-nowrap">21/12/2023</td>
+                  <td className="px-2 sm:px-4 md:px-6 py-4 text-gray-700">
                     PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.03.2024
                   </td>
                 </tr>

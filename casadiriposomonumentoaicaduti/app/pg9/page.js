@@ -62,10 +62,10 @@ export default function Home() {
       <section className="flex flex-col items-center w-full px-2">
         <div className="w-full max-w-4xl">
           <div className="flex flex-col items-center mb-6">
-            <h2 className="text-3xl font-extrabold mt-10 mb-2 text-blue-900 tracking-tight text-center">
+            <h2 className="text-2xl sm:text-3xl font-extrabold mt-8 sm:mt-10 mb-2 text-blue-900 tracking-tight text-center">
               Atti amministrativi <span className="text-blue-600">- Delibere</span>
             </h2>
-            <p className="text-gray-500 text-base text-center max-w-2xl">
+            <p className="text-gray-500 text-sm sm:text-base text-center max-w-2xl">
               In questa sezione sono pubblicate le principali delibere del Consiglio. Puoi consultare numero, data e oggetto di ciascun atto.
             </p>
           </div>
@@ -73,53 +73,101 @@ export default function Home() {
             <table className="min-w-full divide-y divide-blue-200">
               <thead className="bg-blue-100">
                 <tr>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl">
+                  <th className="px-2 sm:px-6 py-3 text-left text-xs sm:text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl whitespace-nowrap">
                     Tipo atto
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                  <th className="px-2 sm:px-6 py-3 text-left text-xs sm:text-sm font-bold text-blue-900 uppercase tracking-wider whitespace-nowrap">
                     N.
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                  <th className="px-2 sm:px-6 py-3 text-left text-xs sm:text-sm font-bold text-blue-900 uppercase tracking-wider whitespace-nowrap">
                     Data
                   </th>
-                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl">
+                  <th className="px-2 sm:px-6 py-3 text-left text-xs sm:text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl whitespace-nowrap">
                     Oggetto
                   </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-blue-100">
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
-                  <td className="px-6 py-4 text-blue-700">19</td>
-                  <td className="px-6 py-4 text-blue-700">10/10/2024</td>
-                  <td className="px-6 py-4 text-gray-700">PRESA D'ATTO DIMISSIONI CONSIGLIERE MORETTO ROBERTA</td>
+                  <td className="px-2 sm:px-6 py-4 font-medium text-blue-800 text-xs sm:text-base">Delibera Di Consiglio</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">19</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">10/10/2024</td>
+                  <td className="px-2 sm:px-6 py-4 text-gray-700 text-xs sm:text-base">PRESA D'ATTO DIMISSIONI CONSIGLIERE MORETTO ROBERTA</td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
-                  <td className="px-6 py-4 text-blue-700">18</td>
-                  <td className="px-6 py-4 text-blue-700">27/08/2024</td>
-                  <td className="px-6 py-4 text-gray-700">INCARICO DI SUPPORTO AL SEGRETARIO DIRETTORE</td>
+                  <td className="px-2 sm:px-6 py-4 font-medium text-blue-800 text-xs sm:text-base">Delibera Di Consiglio</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">18</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">27/08/2024</td>
+                  <td className="px-2 sm:px-6 py-4 text-gray-700 text-xs sm:text-base">INCARICO DI SUPPORTO AL SEGRETARIO DIRETTORE</td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
-                  <td className="px-6 py-4 text-blue-700">17</td>
-                  <td className="px-6 py-4 text-blue-700">27/08/2024</td>
-                  <td className="px-6 py-4 text-gray-700">PRESA D'ATTO DIMISSIONI CONSIGLIERE MIROGLIO CINZIA</td>
+                  <td className="px-2 sm:px-6 py-4 font-medium text-blue-800 text-xs sm:text-base">Delibera Di Consiglio</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">17</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">27/08/2024</td>
+                  <td className="px-2 sm:px-6 py-4 text-gray-700 text-xs sm:text-base">PRESA D'ATTO DIMISSIONI CONSIGLIERE MIROGLIO CINZIA</td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
-                  <td className="px-6 py-4 text-blue-700">16</td>
-                  <td className="px-6 py-4 text-blue-700">15/07/2024</td>
-                  <td className="px-6 py-4 text-gray-700">APPROVAZIONE DEL BILANCIO DI ESERCIZIO 2023 E RELATIVI ALLEGATI</td>
+                  <td className="px-2 sm:px-6 py-4 font-medium text-blue-800 text-xs sm:text-base">Delibera Di Consiglio</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">16</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">15/07/2024</td>
+                  <td className="px-2 sm:px-6 py-4 text-gray-700 text-xs sm:text-base">APPROVAZIONE DEL BILANCIO DI ESERCIZIO 2023 E RELATIVI ALLEGATI</td>
                 </tr>
                 <tr className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
-                  <td className="px-6 py-4 text-blue-700">15</td>
-                  <td className="px-6 py-4 text-blue-700">17/04/2024</td>
-                  <td className="px-6 py-4 text-gray-700">GESTIONE DEL SERVIZIO CENTRO DIURNO ANCHISE. ULTERIORI DETERMINAZIONI.</td>
+                  <td className="px-2 sm:px-6 py-4 font-medium text-blue-800 text-xs sm:text-base">Delibera Di Consiglio</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">15</td>
+                  <td className="px-2 sm:px-6 py-4 text-blue-700 text-xs sm:text-base">17/04/2024</td>
+                  <td className="px-2 sm:px-6 py-4 text-gray-700 text-xs sm:text-base">GESTIONE DEL SERVIZIO CENTRO DIURNO ANCHISE. ULTERIORI DETERMINAZIONI.</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          {/* Mobile card view */}
+          <div className="sm:hidden mt-6 space-y-4">
+            {/* Card 1 */}
+            <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-2 border border-blue-100">
+              <div className="text-xs font-bold text-blue-900 uppercase">Delibera Di Consiglio</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="font-semibold text-blue-700">N. 19</span>
+                <span className="text-blue-700">10/10/2024</span>
+              </div>
+              <div className="text-gray-700 text-xs">PRESA D'ATTO DIMISSIONI CONSIGLIERE MORETTO ROBERTA</div>
+            </div>
+            {/* Card 2 */}
+            <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-2 border border-blue-100">
+              <div className="text-xs font-bold text-blue-900 uppercase">Delibera Di Consiglio</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="font-semibold text-blue-700">N. 18</span>
+                <span className="text-blue-700">27/08/2024</span>
+              </div>
+              <div className="text-gray-700 text-xs">INCARICO DI SUPPORTO AL SEGRETARIO DIRETTORE</div>
+            </div>
+            {/* Card 3 */}
+            <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-2 border border-blue-100">
+              <div className="text-xs font-bold text-blue-900 uppercase">Delibera Di Consiglio</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="font-semibold text-blue-700">N. 17</span>
+                <span className="text-blue-700">27/08/2024</span>
+              </div>
+              <div className="text-gray-700 text-xs">PRESA D'ATTO DIMISSIONI CONSIGLIERE MIROGLIO CINZIA</div>
+            </div>
+            {/* Card 4 */}
+            <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-2 border border-blue-100">
+              <div className="text-xs font-bold text-blue-900 uppercase">Delibera Di Consiglio</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="font-semibold text-blue-700">N. 16</span>
+                <span className="text-blue-700">15/07/2024</span>
+              </div>
+              <div className="text-gray-700 text-xs">APPROVAZIONE DEL BILANCIO DI ESERCIZIO 2023 E RELATIVI ALLEGATI</div>
+            </div>
+            {/* Card 5 */}
+            <div className="bg-white rounded-xl shadow p-4 flex flex-col gap-2 border border-blue-100">
+              <div className="text-xs font-bold text-blue-900 uppercase">Delibera Di Consiglio</div>
+              <div className="flex flex-wrap gap-2 text-xs">
+                <span className="font-semibold text-blue-700">N. 15</span>
+                <span className="text-blue-700">17/04/2024</span>
+              </div>
+              <div className="text-gray-700 text-xs">GESTIONE DEL SERVIZIO CENTRO DIURNO ANCHISE. ULTERIORI DETERMINAZIONI.</div>
+            </div>
           </div>
         </div>
       </section>
