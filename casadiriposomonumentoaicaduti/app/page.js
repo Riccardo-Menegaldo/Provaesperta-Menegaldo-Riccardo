@@ -77,7 +77,7 @@ export default function Home() {
             description="La nostra struttura offre servizi di alta qualità per il benessere e l’assistenza degli ospiti. Personale qualificato, ambienti accoglienti e attenzione quotidiana: ci prendiamo cura di ogni esigenza con professionalità e umanità."
             button1Text="Scopri i Servizi"
             button2Text="Contattaci"
-            imageSrc="/images/SFONDO_BIANCO_PICCOLO-removebg-preview.png"
+            imageSrc="/images/221386323-illustrazione-di-vettore-del-personaggio-dei-cartoni-animati-di-nonno-e-nonno-su-sfondo-bianco.jpg"
             button1Link="pg11"
             button2Link="pg16"
           />

@@ -83,7 +83,8 @@ export default function Navbar(props) {
             <img
               src={props.img}
               alt="Logo"
-              className="h-10 w-auto rounded-lg shadow-md border border-gray-100 bg-white p-1"
+              // Cambiato da h-10 a h-16 per rendere l'immagine più grande
+              className="h-16 w-auto rounded-lg shadow-md border border-gray-100 bg-white p-1"
             />
           </a>
         </div>
