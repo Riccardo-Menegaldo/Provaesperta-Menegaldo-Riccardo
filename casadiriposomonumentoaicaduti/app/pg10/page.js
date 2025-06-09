@@ -59,27 +59,80 @@ export default function Home() {
         img="/images/SFONDO_BIANCO_PICCOLO-removebg-preview.png"
       /> 
 <br></br><br></br><br></br><br></br>
-      <CenteredText title="Atti amministrativi
-Determine
-
-" 
-text="
-Unità organizzativa
-Reg.Gen.
-Data Reg. Gen.
-Oggetto
-DETERMINAZIONE	4	29/03/2024	
-AFFIDAMENTO DIRETTO PER ELABORAZIONE CEDOLINI AMMINISTRATORI E ADEMPIMENTI OBBLIGATORI CONNESSI - Consulente del Lavoro SILVIA GIANDILETTI P.I. 01565010293 - CIG: B0E1AD1F10
-DETERMINAZIONE	3	29/03/2024	
-PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.12.2024
-DETERMINAZIONE	2	19/02/2024	
-PRESA D'ATTO DIFFIDA VIOLAZIONI FORMALI IN CUMULO MATERIALE
-DETERMINAZIONE	1	05/02/2024	
-AFFIDAMENTO DIRETTO PER RINNOVO CONTRATTO ANNUALE DI MANUTENZIONE ED ASSISTENZA AI SISTEMI INFORMATICI - ditta ZUCCHETTI HEALTHCARE SRL di Rovereto (TN) P.I. 02649530280 - CIG B03FC04FF9
-DETERMINAZIONE	45	21/12/2023	
-PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.03.2024
-
-" />
+      <section className="flex flex-col items-center w-full px-2">
+        <div className="w-full max-w-4xl">
+          <div className="flex flex-col items-center mb-6">
+            <h2 className="text-3xl font-extrabold mt-10 mb-2 text-blue-900 tracking-tight text-center">
+              Atti amministrativi <span className="text-blue-600">- Determine</span>
+            </h2>
+            <p className="text-gray-500 text-base text-center max-w-2xl">
+              In questa sezione sono pubblicate le principali determine. Puoi consultare numero, data e oggetto di ciascun atto.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl shadow-lg bg-gradient-to-br from-blue-50 to-white">
+            <table className="min-w-full divide-y divide-blue-200">
+              <thead className="bg-blue-100">
+                <tr>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl">
+                    Unità organizzativa
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                    Reg.Gen.
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                    Data Reg. Gen.
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl">
+                    Oggetto
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-blue-100">
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
+                  <td className="px-6 py-4 text-blue-700">4</td>
+                  <td className="px-6 py-4 text-blue-700">29/03/2024</td>
+                  <td className="px-6 py-4 text-gray-700">
+                    AFFIDAMENTO DIRETTO PER ELABORAZIONE CEDOLINI AMMINISTRATORI E ADEMPIMENTI OBBLIGATORI CONNESSI - Consulente del Lavoro SILVIA GIANDILETTI P.I. 01565010293 - CIG: B0E1AD1F10
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
+                  <td className="px-6 py-4 text-blue-700">3</td>
+                  <td className="px-6 py-4 text-blue-700">29/03/2024</td>
+                  <td className="px-6 py-4 text-gray-700">
+                    PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.12.2024
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
+                  <td className="px-6 py-4 text-blue-700">2</td>
+                  <td className="px-6 py-4 text-blue-700">19/02/2024</td>
+                  <td className="px-6 py-4 text-gray-700">
+                    PRESA D'ATTO DIFFIDA VIOLAZIONI FORMALI IN CUMULO MATERIALE
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
+                  <td className="px-6 py-4 text-blue-700">1</td>
+                  <td className="px-6 py-4 text-blue-700">05/02/2024</td>
+                  <td className="px-6 py-4 text-gray-700">
+                    AFFIDAMENTO DIRETTO PER RINNOVO CONTRATTO ANNUALE DI MANUTENZIONE ED ASSISTENZA AI SISTEMI INFORMATICI - ditta ZUCCHETTI HEALTHCARE SRL di Rovereto (TN) P.I. 02649530280 - CIG B03FC04FF9
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">DETERMINAZIONE</td>
+                  <td className="px-6 py-4 text-blue-700">45</td>
+                  <td className="px-6 py-4 text-blue-700">21/12/2023</td>
+                  <td className="px-6 py-4 text-gray-700">
+                    PROROGA DEL SERVIZIO DI ASSISTENZA SOCIALE PRESSO LO SPORTELLO ASSISTENTI FAMILIARI FINO AL 31.03.2024
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 <br></br><br></br>
       <Footer 
         addressInfo={addressInfo}

@@ -59,26 +59,70 @@ export default function Home() {
         img="/images/SFONDO_BIANCO_PICCOLO-removebg-preview.png"
       /> 
 <br></br><br></br><br></br><br></br>
-      <CenteredText title="Atti amministrativi
-Delibere
-
-" 
-text="Tipo atto
-N.
-Data
-Oggetto
-Delibera Di Consiglio	19	10/10/2024	
-PRESA D'ATTO DIMISSIONI CONSIGLIERE MORETTO ROBERTA
-Delibera Di Consiglio	18	27/08/2024	
-INCARICO DI SUPPORTO AL SEGRETARIO DIRETTORE
-Delibera Di Consiglio	17	27/08/2024	
-PRESA D'ATTO DIMISSIONI CONSIGLIERE MIROGLIO CINZIA
-Delibera Di Consiglio	16	15/07/2024	
-APPROVAZIONE DEL BILANCIO DI ESERCIZIO 2023 E RELATIVI ALLEGATI
-Delibera Di Consiglio	15	17/04/2024	
-GESTIONE DEL SERVIZIO CENTRO DIURNO ANCHISE. ULTERIORI DETERMINAZIONI.
-
-" />
+      <section className="flex flex-col items-center w-full px-2">
+        <div className="w-full max-w-4xl">
+          <div className="flex flex-col items-center mb-6">
+            <h2 className="text-3xl font-extrabold mt-10 mb-2 text-blue-900 tracking-tight text-center">
+              Atti amministrativi <span className="text-blue-600">- Delibere</span>
+            </h2>
+            <p className="text-gray-500 text-base text-center max-w-2xl">
+              In questa sezione sono pubblicate le principali delibere del Consiglio. Puoi consultare numero, data e oggetto di ciascun atto.
+            </p>
+          </div>
+          <div className="overflow-x-auto rounded-xl shadow-lg bg-gradient-to-br from-blue-50 to-white">
+            <table className="min-w-full divide-y divide-blue-200">
+              <thead className="bg-blue-100">
+                <tr>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tl-xl">
+                    Tipo atto
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                    N.
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider">
+                    Data
+                  </th>
+                  <th className="px-6 py-3 text-left text-sm font-bold text-blue-900 uppercase tracking-wider rounded-tr-xl">
+                    Oggetto
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-blue-100">
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
+                  <td className="px-6 py-4 text-blue-700">19</td>
+                  <td className="px-6 py-4 text-blue-700">10/10/2024</td>
+                  <td className="px-6 py-4 text-gray-700">PRESA D'ATTO DIMISSIONI CONSIGLIERE MORETTO ROBERTA</td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
+                  <td className="px-6 py-4 text-blue-700">18</td>
+                  <td className="px-6 py-4 text-blue-700">27/08/2024</td>
+                  <td className="px-6 py-4 text-gray-700">INCARICO DI SUPPORTO AL SEGRETARIO DIRETTORE</td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
+                  <td className="px-6 py-4 text-blue-700">17</td>
+                  <td className="px-6 py-4 text-blue-700">27/08/2024</td>
+                  <td className="px-6 py-4 text-gray-700">PRESA D'ATTO DIMISSIONI CONSIGLIERE MIROGLIO CINZIA</td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
+                  <td className="px-6 py-4 text-blue-700">16</td>
+                  <td className="px-6 py-4 text-blue-700">15/07/2024</td>
+                  <td className="px-6 py-4 text-gray-700">APPROVAZIONE DEL BILANCIO DI ESERCIZIO 2023 E RELATIVI ALLEGATI</td>
+                </tr>
+                <tr className="hover:bg-blue-50 transition">
+                  <td className="px-6 py-4 font-medium text-blue-800">Delibera Di Consiglio</td>
+                  <td className="px-6 py-4 text-blue-700">15</td>
+                  <td className="px-6 py-4 text-blue-700">17/04/2024</td>
+                  <td className="px-6 py-4 text-gray-700">GESTIONE DEL SERVIZIO CENTRO DIURNO ANCHISE. ULTERIORI DETERMINAZIONI.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 <br></br><br></br>
       <Footer 
         addressInfo={addressInfo}
