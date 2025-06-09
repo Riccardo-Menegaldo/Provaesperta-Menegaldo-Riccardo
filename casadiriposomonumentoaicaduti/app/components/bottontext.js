@@ -38,7 +38,7 @@ const BottonText = ({
               {button2Text}
             </a>
           </div>
-          {/* Nuovi bottoni aggiunti sotto ai precedenti */}
+       
           <div className="flex flex-col sm:flex-row gap-4 w-full mt-2">
             <a 
               href={button3Link}

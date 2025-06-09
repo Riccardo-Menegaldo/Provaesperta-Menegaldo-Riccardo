@@ -7,7 +7,7 @@ const Footer = ({
 }) => {
   return (
     <footer className="bg-gradient-to-tr from-white via-blue-50 to-red-50 text-gray-800 font-sans border-t border-gray-200 shadow-inner">
-      {/* Top Section with Title (no logo) */}
+     
       <div className="py-10 flex justify-center items-center">
         <div className="flex flex-col items-center">
           <span className="font-extrabold text-2xl tracking-wide text-red-700 drop-shadow-sm">
@@ -21,9 +21,9 @@ SAN DONÀ DI PIAVE
         </div>
       </div>
 
-      {/* Middle Section with Info Columns */}
+    
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6 pb-14">
-        {/* Sede e Dati */}
+       
         <div>
           <h4 className="font-bold text-lg text-red-700 mb-4 border-b-2 border-red-200 pb-2 uppercase tracking-wide">
             Sede e Dati Societari
@@ -36,7 +36,7 @@ SAN DONÀ DI PIAVE
           </p>
         </div>
 
-        {/* Contatti Gruppi */}
+       
         <div>
           <h4 className="font-bold text-lg text-red-700 mb-4 border-b-2 border-red-200 pb-2 uppercase tracking-wide">
             Contatti Gruppi
