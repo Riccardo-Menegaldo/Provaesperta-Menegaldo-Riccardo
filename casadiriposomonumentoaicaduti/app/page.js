@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BottonText from './components/bottontext';
-
+import { Card, CardGrid } from './components/Card';
 export default function Home() {
   
   const addressInfo = [
@@ -28,7 +28,26 @@ export default function Home() {
   const FOOTER_HEIGHT = 80;
   // Distanza desiderata tra BottonText e navbar/footer
   const DISTANZA = 64; // px (es. 4rem, tailwind: mt-16 = 4rem = 64px)
-
+  const cardsData = [
+    //{
+      //immagine: "/images/article_page_attività_fisica.webp",
+      //titolo: "Sport e Digestione",
+      //descrizione: "Il movimento è importante, si sa. Ma lo sapevi che può influenzare la digestione?",
+      //link: "#"
+   // },
+    // {
+      //immagine:"/images/4 - IN ARTICLE.webp",
+      //titolo: "Bruciore di stomaco e reflusso dopo lo sport",
+      //descrizione: "Chi non ha mai sentito dire che lo sport fa bene a tutto? Ma se soffri di reflusso allenamenti intensi potrebbero diventare i tuoi migliori nemici",
+      //link: "#"
+    //},
+    {
+      immagine: "/images/Bookcrossing.jpg",
+      titolo: "20/05/2025 Gentilissimi",
+      descrizione: "il Consiglio di Amministrazione ha il piacere di invitarVi all’inaugurazione delle casette di book crossing che si terrà Lunedì 16 giugno alle ore 16:30 presso il parco della Casa di Riposo Monumento ai Caduti in Guerra Certi di fare cosa gradita, si porgono cordiali saluti.",
+      link: "#"
+    }
+  ];
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar 
@@ -83,7 +102,14 @@ export default function Home() {
           />
         </div>
       </main>
-
+      <h1 class="text-center text-4xl text-balck font-bold">NEWS</h1>
+      <div className="mt-20">
+        <CardGrid>
+          {cardsData.map((card, index) => (
+            <Card key={index} {...card} />
+          ))}
+        </CardGrid>
+      </div>
       <Footer 
         addressInfo={addressInfo}
         groupContacts={groupContacts}
